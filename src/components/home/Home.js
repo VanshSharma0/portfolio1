@@ -9,6 +9,10 @@ import {info} from "../../info/Info";
 
 export default function Home({innerRef}) {
 
+   const openresume = () => {
+      window.open("https://drive.google.com/file/d/1tFt2Z31HJ4bhYIXXYfahXzLL9GFJl2UB/view?usp=sharing", "_blank");
+   }
+
    return (
       <Box ref={innerRef} component={'main'} display={'flex'} flexDirection={{xs: 'column', md: 'row'}} alignItems={'center'}
            justifyContent={'center'} minHeight={'calc(100vh - 175px)'} id={'home'}>
@@ -24,10 +28,14 @@ export default function Home({innerRef}) {
                   <EmojiBullet key={index} emoji={bio.emoji} text={bio.text}/>
                ))}
             </Box>
+
             <Box display={'flex'} gap={'1.5rem'} justifyContent={'center'} fontSize={{xs: '2rem', md: '2.5rem'}}>
-               {info.socials.map((social, index) => (
-                  <SocialIcon key={index} link={social.link} icon={social.icon} label={social.label} />
-               ))}
+              <button className={Style.resumebutton} onClick={openresume}>
+                <span style={{background: info.gradient, WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>Resume</span>
+              </button>
+              {info.socials.map((social, index) => (
+                <SocialIcon key={index} link={social.link} icon={social.icon} label={social.label} />
+              ))}
             </Box>
          </Box>
       </Box>

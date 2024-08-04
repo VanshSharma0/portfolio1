@@ -47,3 +47,29 @@ a:hover {
   60% { transform: rotate( 0.0deg) }
   100% { transform: rotate( 0.0deg) }
 }
+
+/* Home.module.scss */
+
+/* Home.module.scss */
+
+.resumebutton {
+  background: transparent;
+  border: 1px solid lightblue;
+  color: inherit;
+  font-size: large;
+  cursor: pointer;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.3rem;
+  color: #fff; /* Text color */
+  font-weight: bold;
+  transition: background 1.3s ease; /* Slow transition */
+
+  &:hover {
+    background: rgb(0, 0, 0); /* Background changes to black on hover */
+  }
+
+  span {
+    background: inherit;
+    color: inherit;
+  }
+}
