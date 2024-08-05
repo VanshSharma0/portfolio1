@@ -107,7 +107,13 @@ export const info = {
             title: "Blog App",
             live: "https://blog-app-psi-blue.vercel.app/",
             source: "https://github.com/VanshSharma0/BlogApp",
-            image: mock2
+            image: mock3
+        },
+        {
+            title: "Portfolio",
+            live: "https://portfolio-sepia-kappa.vercel.app/",
+            source: "https://github.com/VanshSharma0/portfolio1",
+            image: mock4
         }
     ]
 }
