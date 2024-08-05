@@ -101,7 +101,7 @@ export const info = {
             title: "Expense Tracker",
             live: "https://expense-tracker-gamma-lyart.vercel.app/",
             source: "https://github.com/VanshSharma0/ExpenseTracker",
-            image: mock3
+            image: mock2
         },
         {
             title: "Blog App",
@@ -114,6 +114,12 @@ export const info = {
             live: "https://portfolio-sepia-kappa.vercel.app/",
             source: "https://github.com/VanshSharma0/portfolio1",
             image: mock4
+        },
+        {
+            title: "Weather App",
+            live: "https://weather-app-mu-sandy.vercel.app/",
+            source: "https://github.com/VanshSharma0/Weather-app",
+            image: mock5
         }
     ]
 }
