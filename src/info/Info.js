@@ -4,6 +4,8 @@ import mock2 from "../img/mock2.png"
 import mock3 from "../img/mock3.png"
 import mock4 from "../img/mock4.png"
 import mock5 from "../img/mock5.png"
+import mock6 from "../img/mock6.png"
+import mock7 from "../img/mock7.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -24,7 +26,7 @@ of what each of the values mean.
 export const info = {
     firstName: "Vansh",
     lastName: "Sharma",
-    initials: "(ಥ﹏ಥ)", // the example uses first and last, but feel free to use three or more if you like.
+    initials: "vs.", // the example uses first and last, but feel free to use three or more if you like.
     position: "a Front end Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
@@ -67,7 +69,7 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm Vansh. I am a dedicated React Developer actively seeking web development opportunities. With expertise in HTML,CSS, JavaScript, React.js, Tailwind CSS, and GSAP, I am eager to contribute to both team and individual projects.",
+    bio: "Hello! I'm Vansh. I am a Software Developer actively seeking web development opportunities. With expertise in HTML, CSS, JavaScript, React.js, Tailwind CSS, and GSAP. I am eager to contribute to both team and individual projects.",
     skills:
         {
             proficientWith: ['Java', 'Python', 'C', 'C++', 'JavaScript', 'React JS', 'Tailwind CSS'],
@@ -104,12 +106,6 @@ export const info = {
             image: mock2
         },
         {
-            title: "Blog App",
-            live: "https://blog-app-psi-blue.vercel.app/",
-            source: "https://github.com/VanshSharma0/BlogApp",
-            image: mock3
-        },
-        {
             title: "Portfolio",
             live: "https://portfolio-sepia-kappa.vercel.app/",
             source: "https://github.com/VanshSharma0/portfolio1",
@@ -120,6 +116,18 @@ export const info = {
             live: "https://weather-app-mu-sandy.vercel.app/",
             source: "https://github.com/VanshSharma0/Weather-app",
             image: mock5
+        },
+        {
+            title: "Movie Search App",
+            live: "https://movie-search-sigma-three.vercel.app/",
+            source: "https://github.com/VanshSharma0/Movie-Search",
+            image: mock7
+        },
+        {
+            title: "Task Management",
+            live: "https://task-management-eight-weld.vercel.app/",
+            source: "https://github.com/VanshSharma0/Task-management",
+            image: mock6
         }
     ]
 }
