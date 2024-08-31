@@ -7,6 +7,7 @@ import mock5 from "../img/mock5.png"
 import mock6 from "../img/mock6.png"
 import mock7 from "../img/mock7.png"
 import mock8 from "../img/mock8.png"
+import mock9 from "../img/mock9.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -110,7 +111,7 @@ export const info = {
             title: "Expense Tracker",
             live: "https://expense-tracker-gamma-lyart.vercel.app/",
             source: "https://github.com/VanshSharma0/ExpenseTracker",
-            image: mock2
+            image: mock9
         },
         {
             title: "Portfolio",
