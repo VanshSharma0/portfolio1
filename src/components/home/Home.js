@@ -10,7 +10,7 @@ import {info} from "../../info/Info";
 export default function Home({innerRef}) {
 
    const openresume = () => {
-      window.open("https://drive.google.com/file/d/1p8Ct1Ha-qNUoyFmIex_l03nOH5H4sKmV/view?usp=sharing", "_blank");
+      window.open("https://drive.google.com/file/d/1G7mx8DpEXOpVmsgxzA9T8006DQlKhexU/view?usp=sharing", "_blank");
    }
 
    return (

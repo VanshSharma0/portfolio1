@@ -6,6 +6,7 @@ import mock4 from "../img/mock4.png"
 import mock5 from "../img/mock5.png"
 import mock6 from "../img/mock6.png"
 import mock7 from "../img/mock7.png"
+import mock8 from "../img/mock8.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -98,6 +99,12 @@ export const info = {
             live: "https://bollymood.vercel.app", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/VanshSharma0/Bollymood", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
+        },
+        {
+            title: "Blog Application",
+            live: "https://megablogapp.vercel.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/VanshSharma0/BlogApplication", // this should be a link to the **repository** of the project, where the code is hosted.
+            image: mock8
         },
         {
             title: "Expense Tracker",
