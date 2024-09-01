@@ -24,7 +24,7 @@ function App() {
     () => ({
       background: {
         color: {
-          value: "#023c86",
+          value: "#0a346b",
         },
       },
       fpsLimit: 120,
@@ -41,10 +41,10 @@ function App() {
         },
         modes: {
           push: {
-            quantity: 4,
+            quantity: 3,
           },
           repulse: {
-            distance: 200,
+            distance: 250,
             duration: 0.4,
           },
         },
@@ -55,7 +55,7 @@ function App() {
         },
         links: {
           color: "#ffffff",
-          distance: 150,
+          distance: 180,
           enable: true,
           opacity: 0.5,
           width: 1,
@@ -67,14 +67,14 @@ function App() {
             default: "bounce",
           },
           random: false,
-          speed: 6,
+          speed: 3,
           straight: false,
         },
         number: {
           density: {
             enable: true,
           },
-          value: 80,
+          value: 120,
         },
         opacity: {
           value: 0.5,
