@@ -74,14 +74,14 @@ export const info = {
     bio: "Hello! I'm Vansh. I am a Software Developer actively seeking web development opportunities. With expertise in HTML, CSS, JavaScript, React.js, Tailwind CSS, and GSAP. I am eager to contribute to both team and individual projects.",
     skills:
         {
-            proficientWith: ['Java', 'Python', 'C', 'C++', 'JavaScript', 'React JS', 'Tailwind CSS'],
+            proficientWith: ['Java', 'C', 'JavaScript', 'React JS', 'Tailwind CSS', 'Typescript', 'SQL'],
             exposedTo: ['MySQL', 'Github', 'Data Structures and Algorithms', 'Linux', 'Canva', 'Adobe Photoshop']
         }
     ,
     hobbies: [
         {
             label: 'Chess',
-            emoji: '♘'
+            emoji: '🐴'
         },
         {
             label: 'movies',
