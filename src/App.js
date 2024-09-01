@@ -24,7 +24,7 @@ function App() {
     () => ({
       background: {
         color: {
-          value: "#0a346b",
+          value: "transparent",
         },
       },
       fpsLimit: 120,
@@ -41,21 +41,21 @@ function App() {
         },
         modes: {
           push: {
-            quantity: 3,
+            quantity: 4,
           },
           repulse: {
-            distance: 250,
+            distance: 200,
             duration: 0.4,
           },
         },
       },
       particles: {
         color: {
-          value: "#ffffff",
+          value: ["#ffffff", "#87CEEB", "#E0FFFF", "#B0E0E6", "#4682B4"],
         },
         links: {
           color: "#ffffff",
-          distance: 180,
+          distance: 150,
           enable: true,
           opacity: 0.5,
           width: 1,
@@ -67,23 +67,31 @@ function App() {
             default: "bounce",
           },
           random: false,
-          speed: 3,
+          speed: 1.5,
           straight: false,
         },
         number: {
           density: {
             enable: true,
+            area: 800,
           },
-          value: 120,
+          value: 100,
         },
         opacity: {
-          value: 0.5,
+          value: 0.7,
         },
         shape: {
-          type: "circle",
+          type: ["circle", "triangle", "star"],
         },
         size: {
-          value: { min: 1, max: 5 },
+          value: { min: 1, max: 4 },
+        },
+        twinkle: {
+          particles: {
+            enable: true,
+            frequency: 0.05,
+            opacity: 1,
+          },
         },
       },
       detectRetina: true,
@@ -91,8 +99,29 @@ function App() {
     [],
   );
 
+  const gradientStyle = {
+    position: "absolute",
+    top: 0,
+    left: 0,
+    width: "100%",
+    height: "100%",
+    background: "linear-gradient(135deg, #0a346b 0%, #1e5799 50%, #2989d8 100%)",
+    zIndex: -2,
+    animation: "gradientAnimation 15s ease infinite",
+  };
+
   return (
     <div style={{ position: "relative", height: "100vh" }}>
+      <div style={gradientStyle}></div>
+      <style>
+        {`
+          @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+          }
+        `}
+      </style>
       {init && (
         <Particles
           id="tsparticles"
@@ -109,4 +138,3 @@ function App() {
 }
 
 export default App;
-   
