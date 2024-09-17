@@ -71,11 +71,11 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm Vansh. I am a Software Developer actively seeking web development opportunities. With expertise in HTML, CSS, JavaScript, React.js, Tailwind CSS, and GSAP. I am eager to contribute to both team and individual projects.",
+    bio: "Hello! I'm Vansh. I am a FullStack Developer actively seeking web development opportunities. With expertise in JavaScript, React, Express, Node js, Mongo DB, Java, SQL. I’m Eager to contribute to both team and individual projects.",
     skills:
         {
-            proficientWith: ['Java', 'C', 'JavaScript', 'React JS', 'Tailwind CSS', 'Typescript', 'SQL'],
-            exposedTo: ['MySQL', 'Github', 'Data Structures and Algorithms', 'Linux', 'Canva', 'Adobe Photoshop']
+            proficientWith: ['Java', 'C', 'JavaScript', 'React', 'SQL', "Node js", "Express js", "TypeScript"],
+            exposedTo: ['Linux', 'MySQL', 'Git', 'Mongo DB', 'Data Structures & Algorithms', 'Figma', 'Photoshop']
         }
     ,
     hobbies: [
