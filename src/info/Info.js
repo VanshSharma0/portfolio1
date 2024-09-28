@@ -8,6 +8,9 @@ import mock6 from "../img/mock6.png"
 import mock7 from "../img/mock7.png"
 import mock8 from "../img/mock8.png"
 import mock9 from "../img/mock9.png"
+import mock10 from "../img/mock10.png"
+import mock11 from "../img/mock11.png"
+import mock12 from "../img/mock12.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -96,16 +99,34 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Bollywood",
-            live: "https://bollymood.vercel.app", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/VanshSharma0/Bollymood", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: mock1
+            title: "Admin Dashboard",
+            live: "https://admin-dash-syncfusion.netlify.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/VanshSharma0/dashboard-syncfusion", // this should be a link to the **repository** of the project, where the code is hosted.
+            image: mock10
         },
         {
             title: "Blog Application",
             live: "https://megablogapp.vercel.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/VanshSharma0/BlogApplication", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock8
+        },
+        {
+            title: "FastBills - Invoice Generator",
+            live: "https://fastbills.netlify.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/VanshSharma0/Fastbills", // this should be a link to the **repository** of the project, where the code is hosted.
+            image: mock11
+        },
+        {
+            title: "Ai Image Generator",
+            live: "https://image-generator-with-ai.vercel.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/VanshSharma0/Ai-image-generator", // this should be a link to the **repository** of the project, where the code is hosted.
+            image: mock12
+        },
+        {
+            title: "Bollywood",
+            live: "https://bollymood.vercel.app", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/VanshSharma0/Bollymood", // this should be a link to the **repository** of the project, where the code is hosted.
+            image: mock1
         },
         {
             title: "Expense Tracker",
