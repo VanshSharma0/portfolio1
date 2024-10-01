@@ -15,7 +15,84 @@ import mock12 from "../img/mock12.png"
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
 
-export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
+// export let colors = ["rgb(0,255,144)", "rgb(166,104,255)"];
+// Black and White
+// export let colors = ["rgb(0, 0, 0)", "rgb(255, 255, 255)"];
+
+// // Gold and White
+// export let colors = ["rgb(255, 215, 0)", "rgb(255, 255, 255)"];
+
+// // Teal and White
+// export let colors = ["rgb(0, 128, 128)", "rgb(255, 255, 255)"];
+
+// // Gold and Black
+// export let colors = ["rgb(255, 215, 0)", "rgb(0, 0, 0)"];
+
+// // Teal and Black
+// export let colors = ["rgb(0, 128, 128)", "rgb(0, 0, 0)"];
+
+// // Silver and White
+// export let colors = ["rgb(192, 192, 192)", "rgb(255, 255, 255)"];
+
+// // Gray and White
+// export let colors = ["rgb(128, 128, 128)", "rgb(255, 255, 255)"];
+
+// // Rose and White
+// export let colors = ["rgb(255, 255, 255)", "rgb(255, 102, 184)"];
+
+// // Navy Blue and White
+// export let colors = ["rgb(0, 0, 128)", "rgb(255, 255, 255)"];
+
+// // Olive and White
+// export let colors = ["rgb(128, 128, 0)", "rgb(255, 255, 255)"];
+
+// // Orange and White
+// export let colors = ["rgb(255, 165, 0)", "rgb(255, 255, 255)"];
+
+// // Purple and Black
+// export let colors = ["rgb(128, 0, 128)", "rgb(0, 0, 0)"];
+
+// // Cyan and Black
+// export let colors = ["rgb(0, 255, 255)", "rgb(0, 0, 0)"]; 
+
+// // Lime Green and White
+// export let colors = ["rgb(50, 205, 50)", "rgb(255, 255, 255)"];
+
+// // Magenta and Black
+// export let colors = ["rgb(255, 0, 255)", "rgb(0, 0, 0)"];
+
+// // Coral and White
+// export let colors = ["rgb(255, 127, 80)", "rgb(255, 255, 255)"];
+
+// // Turquoise and Black
+// export let colors = ["rgb(64, 224, 208)", "rgb(0, 0, 0)"];
+
+// // Crimson and White
+// export let colors = ["rgb(220, 20, 60)", "rgb(255, 255, 255)"]; 
+
+// // Forest Green and White
+// export let colors = ["rgb(34, 139, 34)", "rgb(255, 255, 255)"];
+
+// // Pink and Black
+export let colors = ["rgb(255, 105, 180)", "rgb(150, 50, 50)"];
+
+// // Royal Blue and White
+// export let colors = ["rgb(65, 105, 225)", "rgb(255, 255, 255)"];
+
+// // Bronze and White
+// export let colors = ["rgb(205, 127, 50)", "rgb(255, 255, 255)"];
+
+// // Indigo and Black
+// export let colors = ["rgb(75, 0, 130)", "rgb(0, 0, 0)"];
+
+// // Light Blue and White
+// export let colors = ["rgb(173, 216, 230)", "rgb(255, 255, 255)"];
+
+// // Mint Green and Black
+// export let colors = ["rgb(152, 255, 152)", "rgb(0, 0, 0)"];
+
+
+
 
 /* 
 This variable will change the layout of the website from multipage to single, scrollable page
@@ -34,7 +111,8 @@ export const info = {
     initials: "vs.", // the example uses first and last, but feel free to use three or more if you like.
     position: "a Web Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
-    gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
+    gradient: `-webkit-linear-gradient(135deg, ${colors[0]}, ${colors[1]})`,
+ // don't change this either
     baseColor: colors[0],
     miniBio: [ 
         {
