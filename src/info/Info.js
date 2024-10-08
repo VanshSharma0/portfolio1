@@ -11,6 +11,7 @@ import mock9 from "../img/mock9.png"
 import mock10 from "../img/mock10.png"
 import mock11 from "../img/mock11.png"
 import mock12 from "../img/mock12.png"
+import mock15 from "../img/mock15.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -129,7 +130,7 @@ export const info = {
         },
         {
             emoji: "📧",
-            text: "vanished934@gmail.com"
+            text: "sharmavansh8900@gmail.com"
         }
     ],
     socials: [
@@ -176,6 +177,11 @@ export const info = {
 // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
+        {
+            title: "Jewellery Store",
+            live: "https://murtijewellers.vercel.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            image: mock15
+        },
         {
             title: "Admin Dashboard",
             live: "https://admin-dash-syncfusion.netlify.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
