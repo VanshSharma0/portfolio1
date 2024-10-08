@@ -185,7 +185,6 @@ export const info = {
         {
             title: "Admin Dashboard",
             live: "https://admin-dash-syncfusion.netlify.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/VanshSharma0/dashboard-syncfusion", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock10
         },
         {

@@ -42,16 +42,19 @@ export default function BaseLayout() {
            flexDirection={'column'} 
            minHeight={'100vh'}
            justifyContent={'space-between'}
-           sx={{ position: 'relative', zIndex: 1 }} // Ensure content is above particles
+           sx={{ position: 'relative', zIndex: 1 }}
          >
             <Grid item>
                <Navbar darkMode={darkMode} handleClick={handleToggleDarkMode} active={active} setActive={setActive} />
             </Grid>
             <Grid item flexGrow={1}>
                {singlePage ? (
-                  <SinglePageRoutes refs={{ refHome, refAbout, refPortfolio }} />
+                  <SinglePageRoutes 
+                    refs={{ refHome, refAbout, refPortfolio }}
+                    darkMode={darkMode}  // Add darkMode prop here
+                  />
                ) : (
-                  <MultiPageRoutes />
+                  <MultiPageRoutes darkMode={darkMode} />  // And here
                )}
             </Grid>
             <Grid item>
