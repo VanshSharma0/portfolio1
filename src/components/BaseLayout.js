@@ -14,6 +14,7 @@ export default function BaseLayout() {
    const [active, setActive] = useState(location.pathname === '/' ? 'home' : location.pathname.slice(1, location.pathname.length));
    const refHome = useScrollObserver(setActive);
    const refAbout = useScrollObserver(setActive);
+   const refExp = useScrollObserver(setActive);
    const refPortfolio = useScrollObserver(setActive);
    const [darkMode, setDarkMode] = useState(false);
 
@@ -50,7 +51,7 @@ export default function BaseLayout() {
             <Grid item flexGrow={1}>
                {singlePage ? (
                   <SinglePageRoutes 
-                    refs={{ refHome, refAbout, refPortfolio }}
+                    refs={{ refHome, refAbout, refPortfolio, refExp }}
                     darkMode={darkMode}  // Add darkMode prop here
                   />
                ) : (
