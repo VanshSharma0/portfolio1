@@ -1,62 +1,61 @@
 .experienceContainer {
     position: relative;
     z-index: 0;
-    min-height: 100vh;
+    min-height: 60vh; /* Height remains */
     width: 100%;
+    padding: 1rem; /* Added padding for better mobile experience */
 }
 
 .headerWrapper {
     text-align: center;
-    padding: 0 20px;
-    max-width: 1280px;
-    margin: 0 auto 60px;
+    padding: 0 20px; /* Maintain padding */
+    max-width: 1280px; /* Maintain max width */
+    margin: 0 auto 30px; /* Bottom margin */
 }
 
 .sectionSubText {
-    font-size: 2.5rem;
+    font-size: 1.6rem; /* Slightly larger for readability */
     text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: #aaa6c3;
-    margin-bottom: 1rem;
+    letter-spacing: 0.05em; 
+    color: #e0e0e0; /* Light color for dark mode */
+    margin-bottom: 0.5rem;
 
     @media (min-width: 640px) {
-        font-size: 3rem;
+        font-size: 2.1rem; /* Adjust for larger screens */
     }
 }
+
 .sectionHeadText {
-    font-size: 1rem; /* Decreased font size */
+    font-size: 0.85rem; 
     font-weight: 300;
-    color: white;
+    color: #f0f0f0; /* Light color */
     display: flex;
-    justify-content: center; /* Centers content horizontally */
-    align-items: center; /* Centers content vertically */
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-    width: 100%; /* Ensures it takes full width for centering */
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0; 
+    width: 100%; 
 
     @media (min-width: 640px) {
-        font-size: 4rem; /* Adjust this as needed for larger screens */
+        font-size: 2.7rem; /* Adjust for larger screens */
     }
 }
-
 
 .timelineContainer {
-    padding-top: 2rem;
-    max-width: 1200px;
+    padding-top: 1rem; 
+    max-width: 1200px; 
     margin: 0 auto;
 }
 
 .timelineElement {
-    margin: 2rem 0;
+    margin: 1rem 0;
 
     :global {
         .vertical-timeline-element-date {
-            color: #d4d4d4;
-            font-size: 1.5rem !important;
-            font-weight: 500 !important;
+            color: #c0c0c0; /* Light gray for readability */
+            font-size: 1.1rem !important;
 
             @media (min-width: 768px) {
-                font-size: 2rem !important;
+                font-size: 1.35rem !important; 
             }
         }
     }
@@ -64,54 +63,53 @@
 
 .cardContent {
     .title {
-        font-size: 1rem;
+        font-size: 0.85rem; 
         font-weight: 400;
-        color: white;
-        margin-bottom: 1rem;
+        color: #ffffff; 
+        margin-bottom: 0.5rem;
 
         @media (min-width: 768px) {
-            font-size: 2rem;
+            font-size: 1.35rem; 
         }
     }
 
     .company {
-        font-size: 0.75rem;
+        font-size: 0.65rem; 
         font-weight: 100;
-        color: #d4d4d4;
-        margin-bottom: 1.5rem;
+        color: #d0d0d0; 
+        margin-bottom: 1rem;
 
         @media (min-width: 768px) {
-            font-size: 2rem;
+            font-size: 1.35rem; 
         }
     }
 
     .pointsList {
         list-style: none;
         padding: 0;
-        margin: 2rem 0 0;
+        margin: 1rem 0 0;
 
         .point {
-            font-size: 1.25rem;
-            color: #d4d4d4;
-            padding-left: 1.5rem;
+            font-size: 0.9rem; 
+            color: #d0d0d0; 
+            padding-left: 0.75rem; 
             position: relative;
-            margin-bottom: 1rem;
-            line-height: 1.6;
-            text-align: left;
+            margin-bottom: 0.5rem; 
+            line-height: 1.4;
 
             &::before {
                 content: '';
                 position: absolute;
                 left: 0;
-                top: 0.8rem;
-                width: 0.5rem;
-                height: 0.5rem;
-                background-color: #d4d4d4;
+                top: 0.5rem; 
+                width: 0.4rem; 
+                height: 0.4rem; 
+                background-color: #d0d0d0; 
                 border-radius: 50%;
             }
 
             @media (min-width: 768px) {
-                font-size: 1.5rem;
+                font-size: 1rem; 
             }
         }
     }

@@ -1,10 +1,8 @@
 import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
-import { motion } from 'framer-motion';
 import 'react-vertical-timeline-component/style.min.css';
 import { experiences } from '../../constants';
 import { SectionWrapper } from '../../hoc';
-import { textVariant } from '../utils/motion';
 import styles from './Exp.module.scss';
 
 const ExperienceCard = ({ experience }) => (
@@ -12,8 +10,8 @@ const ExperienceCard = ({ experience }) => (
     contentStyle={{ 
       background: '#1d1836', 
       color: '#fff',
-      padding: '2rem',
-      borderRadius: '1rem',
+      padding: '1.5rem', // Reduced padding for mobile
+      borderRadius: '0.5rem', // Slightly reduced border radius
     }}
     contentArrowStyle={{ borderRight: '7px solid #1d1836' }}
     date={experience.date}
@@ -49,11 +47,10 @@ const ExperienceCard = ({ experience }) => (
 const Experience = () => {
   return (
     <div className={styles.experienceContainer}>
-          <h2 className={styles.sectionHeadText}>
-            Work Experience
-          </h2>
+      <h2 className={styles.sectionHeadText}>
+        Work Experience
+      </h2>
       <div className={styles.timelineContainer}>
-        
         <VerticalTimeline animate={true} lineColor="#1d1836">
           {experiences.map((experience, index) => (
             <ExperienceCard key={index} experience={experience} />
