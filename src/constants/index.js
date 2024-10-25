@@ -136,7 +136,7 @@ import {
   
   const experiences = [
     {
-      title: "Web Developer",
+      title: "Mern Developer",
       company_name: "The Shubham Group",
       icon: starbucks,
       iconBg: "#FFFFFF",
@@ -149,55 +149,41 @@ import {
       ],
     },
     {
-      title: "Software Automation Engineer",
-      company_name: "Tarpon Health",
+      title: "Web Developer Intern",
+      company_name: "Encryptix",
       icon: starbucks,
       iconBg: "#FFFFFF",
-      date: "April 2023 - June 2024",
+      date: "Jun 2024 - Jul 2024",
       points: [
-        "Developed and deployed end-to-end automated workflows using UI Path to streamline repetitive tasks, increasing healthcare system's operational efficiency by 23%.",
-        "Designed and implemented RPA bots for automating key business processes, ensuring accuracy and compliance.",
-        "Slashed troubleshooting time by 40%, improved code quality, implemented MVC and advanced IDE tools."
+        "Developed a Human resource management system.A software application designed to help manage human resources in an organization. It is used by HR managers to manage employee data, track employee performance and other personal information etc.",
+        " I have developed an online platform dedicated to Henna booking services. This platform facilitates appointments for Henna application, catering primarily to events such as weddings, receptions, and other special occasions.",
       ],
     },
     {
-      title: "Software Engineer Intern",
-      company_name: "Global Shala",
+      title: "Java Backend Intern",
+      company_name: "CodSoft",
       icon: starbucks,
       iconBg: "#FFFFFF",
-      date: "January 2023 - March 2023",
+      date: "Apr 2024 - June 2024",
       points: [
-        "Elevated revenue by 11% by managing workflow of a team of 10 members through entire Software development Life Cycle (SDLC) in developing AI chatbots.",
-        "Designed and deployed a new feature using React.js, GraphQL and TypeScript, increasing user engagement by 15%.",
-        "Yielded productivity improvement, provided technical support through Terraform and AWS (Lambda and EC3) to ensure effective completion of all goals.",
-        "Assimilated several project management artifacts - RACI charts, project charter, Risk matrix, work breakdown structure.",
+        "Developed a student course registration database, capable of storing detailed course information including code, title, and description.",
+        "Created a command-line application for solving mathematical problems. The program prompts users to input valuesfor specific mathematical formulas and generates accurate solutions based on the provided data.",
+        "Developed a project that acts as a Multiple Choice answer game with 4 answers and also implemented a timer of 10 seconds, within which you have to answer the question, or else it skips to the next one.",
       ],
     },
     {
-      title: "Graduate Teaching Assistant",
-      company_name: "Illinois Institute of Technology",
+      title: "Social Media Marketing Manager",
+      company_name: "Sociara",
       icon: starbucks,
       iconBg: "#FFFFFF",
       date: "January 2023 - April 2024",
       points: [
-        "Empowered students to grasp and apply object-oriented programming (OOP) concepts, System Design, and Object Analysis and Design (OOAD) in Java.",
-        "Transformed 200+ students into Java wizards, orchestrating a 30% surge in assignment scores through hands-on and engaging instructions.",
-        "Spearheaded practical sessions, propelling students to excel in developing, deployment, debugging, and unit testing leading to a 30% decrease in bug rates and a 15% increase in code quality scores."
+        "Spearhead social media strategy and content management for 3+ lifestyle and wellness businesses including prominent gyms, salons, and beauty parlors.",
+        "Create and curate engaging visual content that aligns with each brand's unique identity and target audience.",
+        "Develop and execute comprehensive social media campaigns to boost brand awareness and client engagement.",
+        "Analyze social media performance metrics to identify trends and opportunities for optimization.",
       ],
     },
-    {
-      title: "Software Engineer",
-      company_name: "Decimal Technolgies",
-      icon: starbucks,
-      iconBg: "#FFFFFF",
-      date: "August 2020 - July 2022",
-      points: [
-        "Developed high-scale production grade financial (Fintech) web & mobile applications using React, Java Spring Boot, REST APIs and Salesforce as a part of cross-functional software team.",
-        "Elevated user experience by 20% through timely delivery of major SaaS project milestones, fixing crucial bugs, and optimizing performance across 4 teams.",
-        "Enhanced systems performance by 13% in 8 months, wrote and optimized SQL queries for data retrievals.",
-        "Boosted software production by educating freshman regarding cloud and core technology."
-      ],
-    }
   ];
   
   const testimonials = [
