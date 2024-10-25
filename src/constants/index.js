@@ -136,16 +136,16 @@ import {
   
   const experiences = [
     {
-      title: "Software Engineer",
-      company_name: "DreamStudio Model.Earth",
+      title: "Web Developer",
+      company_name: "The Shubham Group",
       icon: starbucks,
       iconBg: "#FFFFFF",
-      date: "July 2024 - Present",
+      date: "Oct 2024 - Present",
       points: [
-        "Migrated complex search logic from a monolithic system to a distributed microservices architecture handling thousands of requests per day using Java Spring Boot, Docker, Redis, Kubernetes, and AWS.",
-        "Implemented automated unit testing, successfully enforcing an 80% code coverage and 100% pass rate.",
-        "Established CI/CD pipelines to fetch daily changes from API using GitHub Actions and Docker, reducing deployment times and enhancing release quality.",
-        "Identified and resolved numerous critical production bugs showcasing excellent debugging skills."
+        "Lead the optimization and enhancement of 7+ real estate websites, focusing on both visual appeal and technical performance.",
+        "Implement responsive design principles and modern web development practices to ensure seamless user experience across all devices.",
+        "Drive improvements in website loading speed and performance metrics through technical optimization.",
+        "Develop and maintain custom features and functionalities tailored to real estate industry requirements."
       ],
     },
     {
