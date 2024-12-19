@@ -12,7 +12,9 @@ import mock10 from "../img/mock10.png"
 import mock11 from "../img/mock11.png"
 import mock12 from "../img/mock12.png"
 import mock15 from "../img/mock15.png"
-
+import mock16 from "../img/mock16.png"
+import mock17 from "../img/mock17.png"
+import mock18 from "../img/mock18.png"
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
 
@@ -178,9 +180,25 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
+            title: "Atlas Of Code (Developing)",
+            live: "https://www.atlasofcode.site/",
+            image: mock18
+        },
+        {
             title: "Jewellery Store",
             live: "https://murtijewellers.vercel.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             image: mock15
+        },
+        {
+            title: "2048 Game",
+            live: "https://2048-with-react.vercel.app/",
+            image: mock17
+        },
+        {
+            title: "Nav Solutions",
+            live: "https://navsolutions.vercel.app/",
+            source: "https://github.com/VanshSharma0/Ray-Solutions",
+            image: mock16
         },
         {
             title: "Admin Dashboard",

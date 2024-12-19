@@ -136,11 +136,24 @@ import {
   
   const experiences = [
     {
+      title: "Freelance Web Developer",
+      company_name: "Independent Consultant",
+      icon: starbucks,
+      iconBg: "#FFFFFF",
+      date: "Nov 2024 - Present",
+      points: [
+        "Developed custom web applications for clients, utilizing modern technologies like React, Node.js, and TypeScript",
+        "Collaborated with clients to understand project requirements, provide recommendations, and deliver high-quality software",
+        "Implemented efficient, maintainable code and performed testing to ensure optimal performance and user experience",
+      ],
+    },
+    
+    {
       title: "Mern Developer",
       company_name: "The Shubham Group",
       icon: starbucks,
       iconBg: "#FFFFFF",
-      date: "Oct 2024 - Present",
+      date: "Oct 2024 - Nov 2024",
       points: [
         "Lead the optimization and enhancement of 7+ real estate websites, focusing on both visual appeal and technical performance.",
         "Implement responsive design principles and modern web development practices to ensure seamless user experience across all devices.",
