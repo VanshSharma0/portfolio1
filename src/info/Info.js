@@ -15,6 +15,7 @@ import mock15 from "../img/mock15.png"
 import mock16 from "../img/mock16.png"
 import mock17 from "../img/mock17.png"
 import mock18 from "../img/mock18.png"
+import mock20 from "../img/mock20.png"
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
 
@@ -179,6 +180,12 @@ export const info = {
 // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
+        {
+            title: "Indus Valley Mukhteshwar",
+            live: "https://www.indusvalleymukteshwar.com",
+            image: mock20,
+            source: "https://github.com/VanshSharma0/Indus"
+        },
         {
             title: "Atlas Of Code (Developing)",
             live: "https://www.atlasofcode.site/",
