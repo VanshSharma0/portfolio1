@@ -190,7 +190,7 @@ export const info = {
             image: mock18
         },
         {
-            title: "Jewellery Store",
+            title: "Murti Jewellers Store",
             live: "https://murtijewellers.vercel.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             image: mock15
         },
@@ -206,12 +206,12 @@ export const info = {
             image: mock16
         },
         {
-            title: "Admin Dashboard",
+            title: "Admin Dashboard Panel",
             live: "https://admin-dash-syncfusion.netlify.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             image: mock10
         },
         {
-            title: "Blog Application",
+            title: "TechBlob - Blog Application",
             live: "https://megablogapp.vercel.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/VanshSharma0/BlogApplication", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock8
@@ -229,7 +229,7 @@ export const info = {
             image: mock12
         },
         {
-            title: "Bollywood",
+            title: "Bollywood - Movie Recommendation",
             live: "https://bollymood.vercel.app", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/VanshSharma0/Bollymood", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
@@ -242,7 +242,7 @@ export const info = {
         },
         {
             title: "Portfolio",
-            live: "https://portfolio-sepia-kappa.vercel.app/",
+            live: "vansh.site",
             source: "https://github.com/VanshSharma0/portfolio1",
             image: mock4
         },
