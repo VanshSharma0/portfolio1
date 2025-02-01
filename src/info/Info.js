@@ -101,7 +101,7 @@ export let colors = ["rgb(255, 105, 180)", "rgb(150, 50, 50)"];
 /* 
 This variable will change the layout of the website from multipage to single, scrollable page
 */
-export let singlePage = false;
+export let singlePage = true;
 
 /*
 So let's get started! Some of the info below is pretty self-explanatory, like 'firstName' and 'bio'. I'll try to explain anything
