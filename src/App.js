@@ -1,4 +1,3 @@
-// iMPORT THE REACT LIBRARIES
 import React, { useEffect, useMemo, useState } from 'react';
 import './App.module.scss';
 import BaseLayout from "./components/BaseLayout";
