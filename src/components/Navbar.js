@@ -8,15 +8,20 @@ import { info } from "../info/Info";
 import { singlePage } from '../info/Info';
 
 const links = [
+    // {
+    //     name: 'Home',
+    //     to: '',
+    //     active: 'home'
+    // },
     {
-        name: 'Home',
-        to: '',
-        active: 'home'
-    },
-    {
-        name: 'About Me',
+        name: 'About',
         to: 'about',
         active: 'about'
+    },
+    {
+        name: 'Experience',
+        to: 'experience',
+        active: 'experience'
     },
     {
         name: info.initials,
@@ -25,7 +30,7 @@ const links = [
         active: 'home'
     },
     {
-        name: 'Portfolio',
+        name: 'Projects',
         to: 'portfolio',
         active: 'portfolio'
     }

@@ -1,0 +1,122 @@
+.experienceContainer {
+    position: relative;
+    z-index: 0;
+    min-height: 60vh;
+    width: 100%;
+    padding: 1rem;
+}
+
+.headerWrapper {
+    text-align: center;
+    padding: 0 20px;
+    max-width: 1280px;
+    margin: 0 auto 30px;
+}
+
+.sectionSubText {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em; 
+    color: #eaeaea; /* Brighter for better readability */
+    margin-bottom: 0.5rem;
+
+    @media (min-width: 640px) {
+        font-size: 2.1rem;
+    }
+}
+
+.sectionHeadText {
+    font-size: 1.85rem;
+    font-weight: 400;
+    color: #f5f5f5;
+    background-color: black; /* Keep semi-transparent for readability */
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+    border-radius: 18px;
+
+    @media (min-width: 640px) {
+        font-size: 2.7rem;
+    }
+}
+
+.timelineContainer {
+    padding-top: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.timelineElement {
+    margin: 1rem 0;
+
+    :global {
+        .vertical-timeline-element-date {
+            color: white;
+            font-size: 1.1rem !important;
+            background-color: black; /* Background for date */
+            padding: 0.3rem 0.6rem; /* Padding for date background */
+            border-radius: 8px; /* Rounded corners for date background */
+            display: inline-block; /* Keeps background tight around text */
+
+            @media (min-width: 768px) {
+                font-size: 1.35rem !important;
+            }
+        }
+    }
+}
+
+.cardContent {
+    .title {
+        font-size: 0.9rem;
+        font-weight: 400;
+        color: #ffffff;
+        margin-bottom: 0.5rem;
+
+        @media (min-width: 768px) {
+            font-size: 1.35rem;
+        }
+    }
+
+    .company {
+        font-size: 1.7rem;
+        font-weight: 350;
+        color: #dcdcdc;
+        margin-bottom: 1rem;
+
+        @media (min-width: 768px) {
+            font-size: 1.55rem;
+        }
+    }
+
+    .pointsList {
+        list-style: none;
+        padding: 0;
+        margin: 1rem 0 0;
+
+        .point {
+            font-size: 1rem;
+            color: #e0e0e0;
+            padding-left: 0.75rem;
+            position: relative;
+            margin-bottom: 0.5rem;
+            line-height: 1.5;
+
+            &::before {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 0.5rem;
+                width: 0.4rem;
+                height: 0.4rem;
+                background-color: #e0e0e0;
+                border-radius: 50%;
+            }
+
+            @media (min-width: 768px) {
+                font-size: 1.1rem;
+            }
+        }
+    }
+}

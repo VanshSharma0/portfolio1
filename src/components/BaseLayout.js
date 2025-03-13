@@ -14,6 +14,7 @@ export default function BaseLayout() {
    const [active, setActive] = useState(location.pathname === '/' ? 'home' : location.pathname.slice(1, location.pathname.length));
    const refHome = useScrollObserver(setActive);
    const refAbout = useScrollObserver(setActive);
+   const refExp = useScrollObserver(setActive);
    const refPortfolio = useScrollObserver(setActive);
    const [darkMode, setDarkMode] = useState(false);
 
@@ -42,17 +43,20 @@ export default function BaseLayout() {
            flexDirection={'column'} 
            minHeight={'100vh'}
            justifyContent={'space-between'}
-           sx={{ position: 'relative', zIndex: 1 }} // Ensure content is above particles
+           sx={{ position: 'relative', zIndex: 1 }}
          >
             <Grid item>
                <Navbar darkMode={darkMode} handleClick={handleToggleDarkMode} active={active} setActive={setActive} />
             </Grid>
             <Grid item flexGrow={1}>
-               {singlePage ? (
-                  <SinglePageRoutes refs={{ refHome, refAbout, refPortfolio }} />
-               ) : (
-                  <MultiPageRoutes />
-               )}
+            {singlePage ? (
+  <SinglePageRoutes 
+    refs={{ refHome, refAbout, refPortfolio, refExp }}
+    darkMode={darkMode}
+  />
+) : (
+  <MultiPageRoutes darkMode={darkMode} />
+)}
             </Grid>
             <Grid item>
                <Box 
