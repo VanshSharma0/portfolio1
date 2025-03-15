@@ -153,7 +153,7 @@ import {
       company_name: "The Shubham Group",
       icon: starbucks,
       iconBg: "#FFFFFF",
-      date: "Oct 2024 - Nov 2024",
+      date: "Aug 2024 - Nov 2024",
       points: [
         "Lead the optimization and enhancement of 7+ real estate websites, focusing on both visual appeal and technical performance.",
         "Implement responsive design principles and modern web development practices to ensure seamless user experience across all devices.",
@@ -162,22 +162,22 @@ import {
       ],
     },
     {
-      title: "Web Developer Intern",
+      title: "Web Developer - MERN Stack",
       company_name: "Encryptix",
       icon: starbucks,
       iconBg: "#FFFFFF",
-      date: "Jun 2024 - Jul 2024",
+      date: "Feb 2023 - Aug 2024",
       points: [
         "Developed a Human resource management system.A software application designed to help manage human resources in an organization. It is used by HR managers to manage employee data, track employee performance and other personal information etc.",
         " I have developed an online platform dedicated to Henna booking services. This platform facilitates appointments for Henna application, catering primarily to events such as weddings, receptions, and other special occasions.",
       ],
     },
     {
-      title: "Java Backend Intern",
+      title: "Java Backend Developer",
       company_name: "CodSoft",
       icon: starbucks,
       iconBg: "#FFFFFF",
-      date: "Apr 2024 - June 2024",
+      date: "Sep 2022 - Feb 2023",
       points: [
         "Developed a student course registration database, capable of storing detailed course information including code, title, and description.",
         "Created a command-line application for solving mathematical problems. The program prompts users to input valuesfor specific mathematical formulas and generates accurate solutions based on the provided data.",
@@ -189,7 +189,7 @@ import {
       company_name: "Sociara",
       icon: starbucks,
       iconBg: "#FFFFFF",
-      date: "January 2023 - April 2024",
+      date: "Jan 2022 - Aug 2022",
       points: [
         "Spearhead social media strategy and content management for 3+ lifestyle and wellness businesses including prominent gyms, salons, and beauty parlors.",
         "Create and curate engaging visual content that aligns with each brand's unique identity and target audience.",
