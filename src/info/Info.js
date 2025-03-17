@@ -191,7 +191,7 @@ export const info = {
         },
         {
             title: "Murti Jewellers Store",
-            live: "https://murtijewellers.vercel.app/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            live: "https://murtijewels.shop", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             image: mock15
         },
         {
