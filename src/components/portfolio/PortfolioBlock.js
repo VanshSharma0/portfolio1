@@ -14,7 +14,7 @@ function PortfolioBlock(props) {
             <Box className={'portfolio'} display={'flex'} flexDirection={'column'} gap={'0.5rem'}
                  alignItems={'center'} fontSize={'1.5rem'} py={'2rem'}>
                 <Box p={1} border={borderColor} borderRadius={'25px'}>
-                    <IconLink link={live} title={'Live Demo'} icon={'fa fa-safari'}/>
+                    <IconLink link={live} title={'Deployed'} icon={'fa fa-safari'}/>
                 </Box>
                 {source && (
                     <Box p={1} border={borderColor} borderRadius={'25px'}>
